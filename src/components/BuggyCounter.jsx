@@ -45,4 +45,26 @@ const BuggyCounter = () => {
   );
 };
 
-export default BuggyCounter;
+// export default BuggyCounter;
+
+// const BuggyCounter = () => {
+//   const [reverse, setReverse] = useState(false);
+
+//   const counters = [{ label: "Counter A" }, { label: "Counter B" }];
+
+//   const displayCounters = reverse ? [...counters].reverse() : counters;
+
+//   return (
+//     <div>
+//       <button onClick={() => setReverse(!reverse)}>Reverse Order</button>
+
+//       <div style={{ display: "flex", gap: "20px" }}>
+//         {displayCounters.map((counter) => (
+//           <Counter label={counter.label} />
+//         ))}
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default BuggyCounter;
