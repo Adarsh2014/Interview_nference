@@ -16,6 +16,7 @@ const useLocalPagination = () => {
         console.log(error);
       }
     };
+    fetchedData();
   }, []);
 
   return list;
